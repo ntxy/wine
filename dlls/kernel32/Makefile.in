@@ -27,6 +27,7 @@ C_SRCS = \
 	lzexpand.c \
 	module.c \
 	nameprep.c \
+	nls.c \
 	oldconfig.c \
 	path.c \
 	powermgnt.c \

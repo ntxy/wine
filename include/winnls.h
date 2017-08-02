@@ -353,6 +353,11 @@ static const WCHAR LOCALE_NAME_SYSTEM_DEFAULT[] = {'!','s','y','s','-','d','e','
 #define NORM_IGNOREWIDTH           0x00020000
 #define NORM_LINGUISTIC_CASING     0x08000000
 
+#define FIND_STARTSWITH 0x00100000
+#define FIND_ENDSWITH   0x00200000
+#define FIND_FROMSTART  0x00400000
+#define FIND_FROMEND    0x00800000
+
 #define CP_ACP        0
 #define CP_OEMCP      1
 #define CP_MACCP      2
